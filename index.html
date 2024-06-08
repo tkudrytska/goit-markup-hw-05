@@ -776,19 +776,18 @@
               </li>
             </ul>
           </div>
-          <form class="footer-form">
-            <div class="footer-input">
-              <label for="footer-input">Subscribe</label>
-              <input
-                type="email"
-                id="footer-input"
-                name="footer-input"
-                placeholder="E-mail"
-              />
-            </div>
-            <button type="submit" class="footer-btn">
-              Subscribe
-              <span class="btn-wrap">
+          <div class="footer-form">
+            <p class="footer-form-title">Subscribe</p>
+            <form class="footer-form-wrap">
+              <label class="footer-form-label"
+                ><input
+                  class="footer-input"
+                  type="email"
+                  name="footer-input"
+                  placeholder="E-mail"
+              /></label>
+              <button type="submit" class="footer-btn">
+                Subscribe
                 <svg
                   class="footer-btn-icon"
                   width="24"
@@ -798,12 +797,12 @@
                     href="./images/icons.svg#icon-Frame"
                   ></use>
                 </svg>
-              </span>
-            </button>
-          </form>
+              </button>
+            </form>
+          </div>
         </div>
       </footer>
-      <div class="backdrop is-open">
+      <div class="backdrop">
         <div class="modal">
           <button type="button" class="modal-btn">
             <svg
